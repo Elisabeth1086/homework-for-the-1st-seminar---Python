@@ -9,9 +9,6 @@
 
 num = input('Введите шестизначный номер билета: ')
 
-leftRange = 0
-rightRange = 0
-
 if len(num) != 6:
     print('Вы ввели не шестизначное число!')
 else:
